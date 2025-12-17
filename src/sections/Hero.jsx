@@ -55,10 +55,10 @@ const Hero = () => {
               code.
             </p>
 
-            <Button
+            <Button 
               text="See My Experience"
               className="md:w-80 md:h-16 w-60 h-12"
-              id="experience"/>
+              id="work"/>
           </div>
         </header>
 
@@ -70,7 +70,9 @@ const Hero = () => {
         </figure>
       </div>
 
-     
+     <div id="counter">
+
+     </div>
     </section>
   );
 };

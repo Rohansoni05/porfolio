@@ -19,7 +19,7 @@ const Button = ({ text, className, id }) => {
 
           // Calculate how far down the page we need to scroll
           const top =
-            target.getBoundingClientRect().top + window.pageYOffset - offset;
+            target.getBoundingClientRect().top + window.pageYOffset + 2*offset;
 
           // Scroll smoothly to that position
           window.scrollTo({ top, behavior: "smooth" });
